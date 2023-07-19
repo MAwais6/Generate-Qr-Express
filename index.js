@@ -13,12 +13,12 @@ app.get("/generate_qr", async (req, res) => {
       width: 300,
       height: 300,
       data: url || "https://visric.com",
-      image: "public/Images/visriclogo.png",
+      image: "public/Images/Craiveco-instagram-logo.png",
       margin: 20,
       qrOptions: {
         typeNumber: "0",
         mode: "Byte",
-        errorCorrectionLevel: "Q",
+        errorCorrectionLevel: "H",
       },
       imageOptions: {
         hideBackgroundDots: true,
